@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Header {
+    position: sticky;
+    z-index: 10;
+    @apply p-4 flex flex-col justify-center text-center
+}
+
+.WebsiteName{
+    color: white;
+    @apply text-2xl font-bold
+}

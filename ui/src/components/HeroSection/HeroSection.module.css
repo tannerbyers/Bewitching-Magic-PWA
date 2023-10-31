@@ -1,0 +1,6 @@
+.HeroSection {
+    z-index: 4;
+    position: relative;
+    color: white;
+    @apply px-6 text-center
+}
