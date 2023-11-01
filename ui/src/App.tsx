@@ -9,7 +9,7 @@ import TwinklingStars from "./components/TwinklingStars/TwinklingStars";
 import moonPhase from "./static-data/moonPhase.json"
 
 const getMoonPhaseName = (async () => {
-  const res = await fetch('/getMoonPhase')
+  const res = await fetch('api/getMoonPhase')
   if (res.status == 200) {
     return res.json()
   } else {
