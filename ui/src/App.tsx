@@ -71,7 +71,7 @@ function App() {
       <TwinklingStars/>
       <RitualSection moonRituals={moonRituals}></RitualSection>
       <ItemSection moonRitualItems={moonRitualItems} ></ItemSection>
-      <p className="pr-4 mt-8 text-right text-white">Created by Tanner Byers</p>
+      <p className="relative z-10 pr-4 mt-8 text-right text-white">Created by Tanner Byers</p>
     </div>
     )
   )

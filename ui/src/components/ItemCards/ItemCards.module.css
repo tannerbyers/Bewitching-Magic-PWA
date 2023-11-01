@@ -1,1 +1,4 @@
-.ItemCards {}
+.ItemCards {
+    background: transparent;
+    padding: 1rem
+}

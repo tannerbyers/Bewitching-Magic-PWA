@@ -1,4 +1,7 @@
 .RitualSection {
   color: white;
+  position: relative;
+  z-index: 2;
+  background: transparent;
   @apply text-center
 }

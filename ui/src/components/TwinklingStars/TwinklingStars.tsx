@@ -73,14 +73,14 @@ const TwinklingStars: FC<TwinklingStarsProps> = () => {
 
     const backgroundColor = "black";
     const width = window.innerWidth;
-    const height = 1800;
+    const height = 4000;
     const maxStarRadius = 1.5;
     const minStarOpacity = 0.1;
     const maxStarOpacity = 0.7;
     const stars = createStars(width, height, 60);
 
     canvas.width = width;
-    canvas.height = 1800;
+    canvas.height = 4000;
 
     let counter = 0;
 

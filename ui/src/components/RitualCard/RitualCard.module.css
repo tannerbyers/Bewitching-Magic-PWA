@@ -1,3 +1,4 @@
 .RitualCard {
+    background: transparent;
     @apply block max-w-sm p-10 mx-8 my-4 bg-white border border-gray-200 rounded-lg shadow text-center
 }

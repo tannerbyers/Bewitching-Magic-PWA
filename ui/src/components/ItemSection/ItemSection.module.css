@@ -1,5 +1,8 @@
 .ItemSection {
     color: white;
+    background: transparent;
+    position: relative;
+    z-index: 2;
     @apply text-center
   }
   
