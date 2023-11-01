@@ -12,9 +12,9 @@ const HeroSection: FC<HeroSectionProps> = ({ moonPhase }) => (
       <h3 className="pt-6 bg-transparent text-9xl">{moonPhase.emoji}</h3>
       <h2 className="pt-4 text-6xl bg-transparent">{moonPhase.name.split(" ")[1]}</h2>
     </div>
-    <div className="py-8 text-left bg-transparent">
+    <div className="py-8 text-center bg-transparent">
       <h3 className="pt-8 text-4xl bg-transparent">Best For</h3>
-      <p className="text-xl bg-transparent">
+      <p className="p-10 mt-10 text-xl bg-transparent">
         {moonPhase.rituals.summary}
       </p>
       <h2 className="p-8 text-6xl text-center bg-transparent">

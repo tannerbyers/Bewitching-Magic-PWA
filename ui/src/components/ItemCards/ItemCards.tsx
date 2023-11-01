@@ -12,12 +12,13 @@ interface ItemCardsProps {
 const ItemCards: FC<ItemCardsProps> = ({ moonRitualItems }) => {
 
   const settings = {
-    dots: false,
+    className: "slider variable-width",
     infinite: true,
-    speed: 500,
+    centerMode: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    swipeToSlide: true,
+    variableWidth: true,
+    swipeToScroll: true,
     afterChange: function (index: number) {
       setCurrentMoonRitualIndex(index + 1)
     }
