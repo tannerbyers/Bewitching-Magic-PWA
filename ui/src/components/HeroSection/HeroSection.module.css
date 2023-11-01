@@ -1,6 +1,13 @@
 .HeroSection {
-    z-index: 4;
     position: relative;
     color: white;
+    background: transparent;
+    z-index: 10;
+    min-height: 100vh;
     @apply px-6 text-center
+}
+
+h2 {
+    font-family: "blkcherry";
+    @apply text-6xl
 }

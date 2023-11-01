@@ -5,7 +5,7 @@ export default {
   title: "RitualCard",
 };
 
-export const Default = () => <RitualCard />;
+export const Default = () => <RitualCard ritual={{description: "test header: test ritual description"}}/>;
 
 Default.story = {
   name: 'default',

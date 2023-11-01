@@ -5,7 +5,7 @@ import RitualCard from './RitualCard';
 
 describe('<RitualCard />', () => {
   test('it should mount', () => {
-    render(<RitualCard />);
+    render(<RitualCard ritual={{description: "test header: test ritual description"}} />);
     
     const ritualCard = screen.getByTestId('RitualCard');
 

@@ -1,13 +1,17 @@
 import React, { FC } from "react";
+import MoonPhase from "../../../types/MoonPhase"
 import styles from "./RitualCards.module.css";
 import RitualCard from "../RitualCard/RitualCard";
-interface RitualCardsProps {}
+import MoonRitual from "../../../types/MoonRitual";
+interface RitualCardsProps {
+  moonRituals: MoonRitual[]
+}
 
-const RitualCards: FC<RitualCardsProps> = () => (
+const RitualCards: FC<RitualCardsProps> = ({ moonRituals }) => (
   <div className={styles.RitualCards} data-testid="RitualCards">
-    {[1, 2, 3].map((item) => {
-      return <RitualCard>item</RitualCard>;
-    })}{" "}
+    {moonRituals.map((task) => {
+      return <RitualCard ritual={task}></RitualCard>;
+    })}
   </div>
 );
 

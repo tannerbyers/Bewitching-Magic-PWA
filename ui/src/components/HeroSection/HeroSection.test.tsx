@@ -5,7 +5,7 @@ import HeroSection from './HeroSection';
 
 describe('<HeroSection />', () => {
   test('it should mount', () => {
-    render(<HeroSection />);
+    render(<HeroSection moonPhase={{ name: "waning crescent", rituals: [] }}/>);
     
     const heroSection = screen.getByTestId('HeroSection');
 

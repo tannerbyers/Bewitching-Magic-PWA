@@ -5,7 +5,7 @@ export default {
   title: "ItemSection",
 };
 
-export const Default = () => <ItemSection />;
+export const Default = () => <ItemSection moonRitualItems={["item name"]} />;
 
 Default.story = {
   name: 'default',

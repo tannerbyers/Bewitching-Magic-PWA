@@ -5,7 +5,7 @@ import ItemSection from './ItemSection';
 
 describe('<ItemSection />', () => {
   test('it should mount', () => {
-    render(<ItemSection />);
+    render(<ItemSection moonRitualItems={[ {description: "item name"}]} />);
     
     const itemSection = screen.getByTestId('ItemSection');
 

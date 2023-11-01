@@ -5,8 +5,8 @@ import RitualCards from './RitualCards';
 
 describe('<RitualCards />', () => {
   test('it should mount', () => {
-    render(<RitualCards />);
-    
+    render(<RitualCards moonRituals={[{ description: "test ritual" }]} />);
+
     const ritualCards = screen.getByTestId('RitualCards');
 
     expect(ritualCards).toBeInTheDocument();

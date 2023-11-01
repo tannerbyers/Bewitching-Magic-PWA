@@ -1,0 +1,13 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "optimize-json.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "optimize": "tsc optimize-json.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

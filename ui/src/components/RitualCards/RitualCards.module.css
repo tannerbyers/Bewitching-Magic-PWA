@@ -1,7 +1,7 @@
 .RitualCards {
     background-image: url(../../../public/images/horoscope-diagram.svg);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-position: center;
     @apply  flex flex-col bg-no-repeat min-h-[70vh] justify-normal
 
 }

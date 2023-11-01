@@ -5,7 +5,7 @@ import ItemCards from './ItemCards';
 
 describe('<ItemCards />', () => {
   test('it should mount', () => {
-    render(<ItemCards />);
+    render(<ItemCards moonRitualItems={[ {description: "item name"}]} />);
     
     const itemCards = screen.getByTestId('ItemCards');
 

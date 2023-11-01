@@ -5,8 +5,8 @@ import RitualSection from './RitualSection';
 
 describe('<RitualSection />', () => {
   test('it should mount', () => {
-    render(<RitualSection />);
-    
+    render(<RitualSection moonRituals={[{ description: "test ritual" }]} />);
+
     const ritualSection = screen.getByTestId('RitualSection');
 
     expect(ritualSection).toBeInTheDocument();
