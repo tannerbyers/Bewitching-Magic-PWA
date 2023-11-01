@@ -18,7 +18,6 @@ const getMoonPhaseName = (async () => {
 })
 
 const getMoonPhaseData = (async (currentMoonPhase: string) => {
-  // Get the path of the json file
   const jsonData = moonPhase
 
   // todo
