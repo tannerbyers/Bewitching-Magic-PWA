@@ -1,8 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/api",
-        "destination": "https://s10ff8iqk3.execute-api.us-east-1.amazonaws.com/"
+        "source": "/:path*",
+        "destination": "https://s10ff8iqk3.execute-api.us-east-1.amazonaws.com/:path*"
       }
     ]
   }
