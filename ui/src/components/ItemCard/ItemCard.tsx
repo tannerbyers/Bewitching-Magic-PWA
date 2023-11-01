@@ -17,7 +17,7 @@ const ItemCard: FC<ItemCardProps> = ({ moonRitualItem }) =>
   },[])
   return (
   <div className={styles.ItemCard} data-testid="ItemCard">
-    <h5 className="mb-2 text-2xl font-bold tracking-tight text-black bg-white text-black-900">
+    <h5 className="mb-2 text-2xl font-bold tracking-tight text-black bg-transparent bg-white text-black-900">
       {itemInfo?.name}
     </h5>
     <div
@@ -25,7 +25,7 @@ const ItemCard: FC<ItemCardProps> = ({ moonRitualItem }) =>
     >
       Buy Here
     </div>
-    <p className="font-normal text-black bg-white text-black-700">
+    <p className="text-black bg-white  bg-transparentfont-normal text-black-700">
     {itemInfo?.description}
     </p>
   </div>

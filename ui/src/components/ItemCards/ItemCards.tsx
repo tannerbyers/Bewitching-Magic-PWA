@@ -24,12 +24,10 @@ const ItemCards: FC<ItemCardsProps> = ({ moonRitualItems }) => {
   return (
     <div className={styles.ItemCards} data-testid="ItemCards">
       <div>
-        <Slider {...settings}>
           {moonRitualItems.map((moonRitualItem: string) => {
             return <ItemCard moonRitualItem={moonRitualItem}></ItemCard>;
           })}
-        </Slider>
-        <p className="text-xl text-right text-white">{moonRitualItems.length} items</p>
+        <p className="pb-8 text-xl text-right text-white">{moonRitualItems.length} items</p>
       </div>
     </div>
   )
