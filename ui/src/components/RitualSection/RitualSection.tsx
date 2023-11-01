@@ -9,8 +9,8 @@ interface RitualSectionProps {
 
 const RitualSection: FC<RitualSectionProps> = ({moonRituals}) => (
   <div className={styles.RitualSection} data-testid="RitualSection">
-    <h3 className="px-6 pt-8 text-4xl ">Rituals</h3>
-    <p className="px-6 pt-6 mb-8 text-xl ">
+    <h3 className="px-6 pt-8 text-4xl bg-transparent">Rituals</h3>
+    <p className="px-6 pt-6 mb-8 text-xl bg-transparent">
       Taking initial steps towards the goals set during the New Moon. Focus on
       building, growth, and laying down roots
     </p>

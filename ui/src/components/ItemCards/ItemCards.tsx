@@ -23,12 +23,9 @@ const ItemCards: FC<ItemCardsProps> = ({ moonRitualItems }) => {
 
   return (
     <div className={styles.ItemCards} data-testid="ItemCards">
-      <div>
-          {moonRitualItems.map((moonRitualItem: string) => {
-            return <ItemCard moonRitualItem={moonRitualItem}></ItemCard>;
-          })}
-        <p className="pb-8 text-xl text-right text-white">{moonRitualItems.length} items</p>
-      </div>
+      {moonRitualItems.map((moonRitualItem: string) => {
+        return <ItemCard moonRitualItem={moonRitualItem}></ItemCard>;
+      })}
     </div>
   )
 }

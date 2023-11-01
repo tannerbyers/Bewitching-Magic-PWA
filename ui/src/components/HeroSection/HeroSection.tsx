@@ -14,7 +14,7 @@ const HeroSection: FC<HeroSectionProps> = ({ moonPhase }) => (
     </div>
     <div className="py-8 text-center bg-transparent">
       <h3 className="pt-8 text-4xl bg-transparent">Best For</h3>
-      <p className="p-10 mt-10 text-xl bg-transparent">
+      <p className="px-10 pb-10 text-xl bg-transparent">
         {moonPhase.rituals.summary}
       </p>
       <h2 className="p-8 text-6xl text-center bg-transparent">

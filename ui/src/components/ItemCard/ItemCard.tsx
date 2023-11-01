@@ -25,7 +25,7 @@ const ItemCard: FC<ItemCardProps> = ({ moonRitualItem }) =>
     >
       Buy Here
     </div>
-    <p className="text-black bg-white  bg-transparentfont-normal text-black-700">
+    <p className="text-black bg-white bg-transparentfont-normal text-black-700">
     {itemInfo?.description}
     </p>
   </div>

@@ -8,7 +8,7 @@
     left: 0;
     z-index: 20;
     background-color: black;
-    @apply py-4 flex flex-col justify-center text-center
+    @apply pt-4 flex flex-col justify-center text-center
 }
 
 .WebsiteName{
